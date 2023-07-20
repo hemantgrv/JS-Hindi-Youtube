@@ -35,3 +35,35 @@ console.log(typeof someNumber);
 // 65 => 65
 // "" => empty
 // "hemant" => string
+
+
+// **************** Operations ****************
+
+let value = 3;
+let negativeValue = -value
+// console.log(negativeValue);
+
+/*
+Basic operations
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2);
+console.log(2**3);
+console.log(2/2);
+console.log(2%2);
+*/
+
+let strOne = "hello";
+let strTwo = " Hemant";
+let string = strOne + strTwo;
+console.log(string);
+
+// console.log("1"+ 2);
+// console.log(1 + "2");
+// console.log("1" + 6 + 2);
+// console.log(1 + 6 + "2");
+
+// To study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
