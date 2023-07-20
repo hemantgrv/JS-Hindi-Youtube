@@ -41,7 +41,7 @@ console.log(typeof someNumber);
 
 let value = 3;
 let negativeValue = -value
-// console.log(negativeValue);
+console.log(negativeValue);
 
 /*
 Basic operations
