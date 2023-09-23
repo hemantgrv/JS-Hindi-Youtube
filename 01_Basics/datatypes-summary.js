@@ -12,7 +12,7 @@ let userName;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 // values are same but both variables different from each other
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 15655531488n; 
 
@@ -32,5 +32,26 @@ const myFuntion = function() {
     console.log("Hello World");
 }
 
-console.log(typeof myFuntion);
-console.log(typeof heros);
+// console.log(myObj.name);
+// console.log(typeof myFuntion);
+// console.log(typeof heros);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+// Memory 2 types : Stack (Primitive), Heap (Non-Primitive)
+// In stack we get a copy of the variable which is declared
+// In heap we get a referece of the original value
+
+let myPetName = "HG";
+
+let anotherName = myPetName;
+// changing the value of anotherName and check the result: 
+
+anotherName = "Sonu";
+
+console.log(myPetName);
+console.log(anotherName);
+
+let user = {
+    email: "user.gmail.com",
+    upi: "user@ybl"
+}
